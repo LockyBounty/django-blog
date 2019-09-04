@@ -79,12 +79,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'inox27$blogdb2',
         'USER':'loki',
-        'PASSWORD': 'luckies2+',
+        'PASSWORD': 'password2',
         'HOST': 'inox27.mysql.pythonanywhere-services.com'#'localhost'#'den1.mysql3.gear.host',
         # 'OPTIONS': {'read_default_file':'/etc/mysql/my.cnf'},
-    },
-    'TEST':{
-        'NAME': "loki$test_blogdb1"
     }
 }
 
