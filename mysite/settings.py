@@ -25,7 +25,7 @@ SECRET_KEY = 'mo-g-t!2m54(yyrx_ng-#3n7++2=1s)ew%t0hxb(e=)s151f)x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '.pythonanywhere.com']
+ALLOWED_HOSTS = ['localhost', 'inox27.pythonanywhere.com']
 
 
 # Application definition
@@ -78,7 +78,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'inox27$blogdb2',
-        'USER':'loki',
+        'USER':'inox27',
         'PASSWORD': 'password2',
         'HOST': 'inox27.mysql.pythonanywhere-services.com'#'localhost'#'den1.mysql3.gear.host',
         # 'OPTIONS': {'read_default_file':'/etc/mysql/my.cnf'},
