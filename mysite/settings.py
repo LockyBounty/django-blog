@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'inox27$blogdb2',
-        'USER':'inox27',
-        'PASSWORD': 'password2',
-        'HOST': 'inox27.mysql.pythonanywhere-services.com'#'localhost'#'den1.mysql3.gear.host',
+        'NAME': 'blogdb1',
+        'USER':'root',
+        'PASSWORD': 'toor',
+        'HOST': 'localhost'#'den1.mysql3.gear.host',
         # 'OPTIONS': {'read_default_file':'/etc/mysql/my.cnf'},
     }
 }
